@@ -10,6 +10,7 @@ import App from "../App";
 import Somth from "../Somth/Somth";
 import {PrivateRoute} from "../Auth/PrivateRoute";
 import Callback from "../Callback/callback";
+
 export function Router() {
     return (
         <BrowserRouter basename={process.env.PUBLIC_URL}>
