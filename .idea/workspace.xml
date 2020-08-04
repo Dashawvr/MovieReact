@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="Auth.." />
+    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="Auth..">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +82,7 @@
       <workItem from="1595502915238" duration="1036000" />
       <workItem from="1595760801894" duration="597000" />
       <workItem from="1595772954914" duration="1281000" />
-      <workItem from="1596458020180" duration="14576000" />
+      <workItem from="1596458020180" duration="14897000" />
     </task>
     <task id="LOCAL-00001" summary="Auth">
       <created>1596530070901</created>
@@ -96,7 +98,28 @@
       <option name="project" value="LOCAL" />
       <updated>1596530160959</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Auth..">
+      <created>1596530268826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530268827</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Auth..">
+      <created>1596530310027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530310027</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Auth..">
+      <created>1596530450774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530450774</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,18 +142,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Auth.." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="620" y="258" key="#Notifications" timestamp="1596530282052">
+    <state x="620" y="258" key="#Notifications" timestamp="1596530507049">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state x="620" y="258" key="#Notifications/0.23.1440.792@0.23.1440.792" timestamp="1596530282052" />
+    <state x="620" y="258" key="#Notifications/0.23.1440.792@0.23.1440.792" timestamp="1596530507049" />
     <state x="608" y="323" key="Github.ShareDialog" timestamp="1596530411552">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="608" y="323" key="Github.ShareDialog/0.23.1440.792@0.23.1440.792" timestamp="1596530411552" />
-    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596530421721">
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596530455759">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="331" y="136" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1596530174215" />
-    <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596530421721" />
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596530455759" />
   </component>
 </project>
