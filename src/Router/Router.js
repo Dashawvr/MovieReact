@@ -3,11 +3,13 @@ import {
     BrowserRouter,
     Switch,
     Route,
-    Link
+    Link, Redirect
 } from "react-router-dom";
 import Like from "../Like/Like";
 import App from "../App";
-
+import Somth from "../Somth/Somth";
+import {PrivateRoute} from "../Auth/PrivateRoute";
+import Callback from "../Callback/callback";
 export function Router() {
     return (
         <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -15,9 +17,13 @@ export function Router() {
                 <Route path='/' exact>
                     <App/>
                 </Route>
-                <Route path="/like" >
+                <Route path="/like" exact>
                     <Like/>
                 </Route>
+                <PrivateRoute path="/login" exact>
+                    <Somth/>
+                </PrivateRoute>
+                <Redirect to="/"/>
             </Switch>
         </BrowserRouter>
     );

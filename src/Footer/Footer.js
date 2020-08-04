@@ -15,7 +15,7 @@ export function Footer(props) {
                     {
                         socialMediaIcons.map((item,key)=> {
                             return (
-                               <a href=''><img key={key} className="may-footer-social-media-icon" src={item.src} alt={item.alt}/></a>
+                               <img key={key} className="may-footer-social-media-icon" src={item.src} alt={item.alt}/>
                             )
                         })
                     }

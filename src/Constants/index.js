@@ -9,8 +9,10 @@ export const links = [
     },
     {
         name: 'Registration',
-        link: '/log'
+        link: '/login',
     }
+
+
 
 ];
 

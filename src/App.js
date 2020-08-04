@@ -10,16 +10,26 @@ import Search from "./Search/Search";
 import Results from "./Results/Results";
 import Router from "./Router/Router";
 
+import {ThemeProvider, DefaultTheme} from "styled-components";
+import Switch from "react-switch";
+import light from "./styles/themes/light";
+import dark from "./styles/themes/dark"
+import {ThemeContext} from "styled-components";
+import Global from "./styles/Global";
+import usePersistedState from "./Utils/usePersistedState";
+
 import './index.css';
 import Result from "./Results/Result";
 import {AuthProvider} from "./Auth";
 
 
-const isDarkMode = true
-const DarkThemeContext = createContext(isDarkMode);
-
 function App() {
-    const [theme, setTheme] = useState({mode: 'dark'})
+    const [theme, setTheme] = usePersistedState('theme', light);
+
+    const toggleTheme = () => {
+        setTheme(theme.title === 'light' ? dark : light);
+    };
+
     const [state, setState] = useState({
         s: "",
         results: [],
@@ -94,43 +104,42 @@ function App() {
     }
 
 
-
     return (
-<AuthProvider>
-        <div className='App'>
-
-
-            <Header/>
-            <main>
-                <Search handleInput={handleInput} search={search}/>
-                <Results>
-                    {state.results ? state.results.map(result => (
-                        <Result key={result.imdbID} result={result} openSelf={openSelf}/>
-                    )) : ''}
-                    <Dialog classes={{
-                        paper: 'paperDialog',
-                        container: 'containerDialog'
-                    }}
-                            open={openDialog}
-                            onClose={closeSelf}>
-                        <div className='content'>
-                            <h2>{state.selected.Title} <span>{state.selected.Year}</span></h2>
-                            <p className='rating'>Rating: {state.selected.imdbRating}</p>
-                            <div className='plot'>
-                                <img src={state.selected.Poster}/>
-                                <p>{state.selected.Plot}</p>
+        <ThemeProvider theme={theme}>
+        <AuthProvider>
+            <div className='App'>
+                <Global/>
+                <Header toggleTheme={toggleTheme}/>
+                <main>
+                    <Search handleInput={handleInput} search={search}/>
+                    <Results>
+                        {state.results ? state.results.map(result => (
+                            <Result key={result.imdbID} result={result} openSelf={openSelf}/>
+                        )) : ''}
+                        <Dialog classes={{
+                            paper: 'paperDialog',
+                            container: 'containerDialog'
+                        }}
+                                open={openDialog}
+                                onClose={closeSelf}>
+                            <div className='content'>
+                                <h2>{state.selected.Title} <span>{state.selected.Year}</span></h2>
+                                <p className='rating'>Rating: {state.selected.imdbRating}</p>
+                                <div className='plot'>
+                                    <img src={state.selected.Poster}/>
+                                    <p>{state.selected.Plot}</p>
+                                </div>
+                                <Button variant="contained" onClick={() => addToFavorite(state.selected)}>
+                                    <FavoriteIcon/>
+                                </Button>
                             </div>
-                            <Button variant="contained" onClick={() => addToFavorite(state.selected)}>
-                                <FavoriteIcon/>
-                            </Button>
-                        </div>
-                    </Dialog>
-                </Results>
-            </main>
-            <Footer/>
-        </div>
-</AuthProvider>
-
+                        </Dialog>
+                    </Results>
+                </main>
+                <Footer/>
+            </div>
+        </AuthProvider>
+        </ThemeProvider>
     );
 }
 

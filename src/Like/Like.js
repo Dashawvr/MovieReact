@@ -19,10 +19,10 @@ function Like() {
     return (
         <div className='add-favorite-wrapper'>
             <NavLink to={'/'}> <button className='btn'>Back....</button> </NavLink>
-            <div className='add-favorite'>
+            <div className='add-favorite' >
             {
                 state.movies.map((res)=>{
-                    return <Result result={res} openSelf={()=> (console.log(''))}/>
+                    return <Result key={res.id} result={res} openSelf={()=> (console.log(''))}/>
                 })
             }
             </div>

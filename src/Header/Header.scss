@@ -2,6 +2,8 @@
   padding: 10px 20px;
   width: 100%;
   display: flex;
+  background: #7159c1;
+  //!!!! todo: ${props => props.theme.colors.text}
 
   justify-content: space-between;
   align-items: center;
