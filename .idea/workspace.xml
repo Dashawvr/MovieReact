@@ -19,32 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Auth/PrivateRoute.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Callback/callback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Callback/loading.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Compoents/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/usePersistedState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/themes/dark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/themes/light.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/movie-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Like/Like.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Like/Like.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Somth/Somth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Somth/Somth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="Auth.." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,8 +80,23 @@
       <workItem from="1595502915238" duration="1036000" />
       <workItem from="1595760801894" duration="597000" />
       <workItem from="1595772954914" duration="1281000" />
-      <workItem from="1596458020180" duration="14223000" />
+      <workItem from="1596458020180" duration="14576000" />
     </task>
+    <task id="LOCAL-00001" summary="Auth">
+      <created>1596530070901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530070901</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Auth..">
+      <created>1596530160959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530160959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +112,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Auth" />
+    <MESSAGE value="Auth.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth.." />
   </component>
 </project>
