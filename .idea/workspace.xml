@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="Auth..">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Callback/callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Callback/callback.js" afterDir="false" />
-    </list>
+    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="Movie with dark mode" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596531302562</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Movie with dark mode">
+      <created>1596532659802</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596532659802</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Auth.." />
     <MESSAGE value="Auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth" />
+    <MESSAGE value="Movie with dark mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movie with dark mode" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="258" key="#Notifications" timestamp="1596530993464">
@@ -193,10 +198,22 @@
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="608" y="323" key="Github.ShareDialog/0.23.1440.792@0.23.1440.792" timestamp="1596531254494" />
-    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596531304418">
-      <screen x="0" y="23" width="1440" height="792" />
+    <state x="155" y="89" key="MergeDialog" timestamp="1596532840389">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
-    <state x="331" y="136" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1596530174215" />
+    <state x="155" y="89" key="MergeDialog/0.23.1440.788@0.23.1440.788" timestamp="1596532840389" />
+    <state x="617" y="287" key="MultipleFileMergeDialog" timestamp="1596532840435">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="617" y="287" key="MultipleFileMergeDialog/0.23.1440.788@0.23.1440.788" timestamp="1596532840435" />
+    <state x="431" y="180" key="Vcs.Multiple.Commit.Info.Dialog.Key" timestamp="1596532807963">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="431" y="180" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.23.1440.788@0.23.1440.788" timestamp="1596532807963" />
+    <state x="331" y="136" key="Vcs.Push.Dialog.v2" timestamp="1596532703074">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="331" y="136" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1596532703074" />
     <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596531304418" />
   </component>
 </project>
