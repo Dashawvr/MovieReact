@@ -82,6 +82,7 @@
       <workItem from="1595772954914" duration="1281000" />
       <workItem from="1596458020180" duration="14897000" />
       <workItem from="1596530836117" duration="200000" />
+      <workItem from="1596531082474" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="Auth">
       <created>1596530070901</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596530851944</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Auth">
+      <created>1596531096457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596531096457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,10 +165,10 @@
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="608" y="323" key="Github.ShareDialog/0.23.1440.792@0.23.1440.792" timestamp="1596530411552" />
-    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596530855349">
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596531100414">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="331" y="136" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1596530174215" />
-    <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596530855349" />
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596531100414" />
   </component>
 </project>
