@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="Auth..">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="Auth.." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +81,7 @@
       <workItem from="1595760801894" duration="597000" />
       <workItem from="1595772954914" duration="1281000" />
       <workItem from="1596458020180" duration="14897000" />
+      <workItem from="1596530836117" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="Auth">
       <created>1596530070901</created>
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596530450774</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Auth">
+      <created>1596530851944</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530851944</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,25 +141,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Auth" />
     <MESSAGE value="Auth.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth.." />
+    <MESSAGE value="Auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="620" y="258" key="#Notifications" timestamp="1596530507049">
+    <state x="620" y="258" key="#Notifications" timestamp="1596530993464">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state x="620" y="258" key="#Notifications/0.23.1440.792@0.23.1440.792" timestamp="1596530507049" />
+    <state x="620" y="258" key="#Notifications/0.23.1440.792@0.23.1440.792" timestamp="1596530993464" />
     <state x="608" y="323" key="Github.ShareDialog" timestamp="1596530411552">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="608" y="323" key="Github.ShareDialog/0.23.1440.792@0.23.1440.792" timestamp="1596530411552" />
-    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596530455759">
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596530855349">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="331" y="136" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1596530174215" />
-    <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596530455759" />
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596530855349" />
   </component>
 </project>
