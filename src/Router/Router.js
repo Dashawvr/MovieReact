@@ -8,8 +8,7 @@ import {
 import Like from "../Like/Like";
 import App from "../App";
 import Somth from "../Somth/Somth";
-import {PrivateRoute} from "../Auth/PrivateRoute";
-
+import {PrivateRoute} from "../Auth/PrivateRoute"
 
 export function Router() {
     return (
