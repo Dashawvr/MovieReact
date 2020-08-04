@@ -118,4 +118,19 @@
     <MESSAGE value="Auth.." />
     <option name="LAST_COMMIT_MESSAGE" value="Auth.." />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="620" y="258" key="#Notifications" timestamp="1596530282052">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="620" y="258" key="#Notifications/0.23.1440.792@0.23.1440.792" timestamp="1596530282052" />
+    <state x="608" y="323" key="Github.ShareDialog" timestamp="1596530411552">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="608" y="323" key="Github.ShareDialog/0.23.1440.792@0.23.1440.792" timestamp="1596530411552" />
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596530421721">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="331" y="136" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1596530174215" />
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596530421721" />
+  </component>
 </project>
