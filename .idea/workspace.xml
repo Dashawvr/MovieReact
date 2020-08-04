@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="Auth.." />
+    <list default="true" id="e549562e-f8a7-4577-aacf-0967e8ef1caf" name="Default Changelist" comment="Auth..">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Callback/callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Callback/callback.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +87,9 @@
       <workItem from="1596530836117" duration="200000" />
       <workItem from="1596531082474" duration="28000" />
       <workItem from="1596531135256" duration="20000" />
+      <workItem from="1596531181684" duration="133000" />
+      <workItem from="1596531694818" duration="218000" />
+      <workItem from="1596531923285" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="Auth">
       <created>1596530070901</created>
@@ -141,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596531142172</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Auth">
+      <created>1596531188232</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596531188232</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Auth">
+      <created>1596531302562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596531302562</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,14 +189,14 @@
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="620" y="258" key="#Notifications/0.23.1440.792@0.23.1440.792" timestamp="1596530993464" />
-    <state x="608" y="323" key="Github.ShareDialog" timestamp="1596530411552">
+    <state x="608" y="323" key="Github.ShareDialog" timestamp="1596531254494">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state x="608" y="323" key="Github.ShareDialog/0.23.1440.792@0.23.1440.792" timestamp="1596530411552" />
-    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596531144341">
+    <state x="608" y="323" key="Github.ShareDialog/0.23.1440.792@0.23.1440.792" timestamp="1596531254494" />
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596531304418">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="331" y="136" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1596530174215" />
-    <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596531144341" />
+    <state x="331" y="137" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1596531304418" />
   </component>
 </project>

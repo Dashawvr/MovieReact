@@ -12,7 +12,6 @@ class Callback extends Component {
             handleAuthentication()
         }
     }
-
     render () {
         return (
             <FlexWrapper>
