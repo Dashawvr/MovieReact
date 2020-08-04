@@ -20,5 +20,4 @@ class Callback extends Component {
         );
     }
 }
-
 export default WithAuth(Callback);
