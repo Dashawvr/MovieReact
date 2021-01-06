@@ -11,7 +11,7 @@
     "@types/styled-components": "^5.1.1",
     "auth": "0.0.9",
     "auth0-js": "^9.13.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "emotion-theming": "^10.0.27",
     "polished": "^3.6.5",
